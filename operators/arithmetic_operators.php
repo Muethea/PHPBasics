@@ -26,6 +26,7 @@ echo 'Mul = ', $mul,'</br>', 'mod = ', $mod;
 
 */
 
+/*
 if ($number1 == $number2){
     echo ' number 1 is equal to number 2';
 }
@@ -33,6 +34,39 @@ else{
     echo $number1, ' is not equal to ', $number2;
 }
 
+*/
+
+//$x = 5;
+//increment ++ or --;
+
+//Logic operator AND, OR ||, &&
+
+/*
+if ($x==5 AND $x!='') {
+    
+    echo "x is ";
+}
+else {
+    echo "x is not 5";
+}
+
+echo $x;
+
+*/
+/* Concanation
+$x ="Fernando dos Santos";
+$age =25;
+
+echo "Name : ".$x, ' age: '.$age;
+*/
+
+echo 1<=>1; 
+echo "</br>";
+
+echo 1<=>2;
+echo "</br>";
+
+echo 3<=>1;
 
 ?>
    
