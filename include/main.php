@@ -8,7 +8,9 @@
 <body>
     <h1>    <?php
 
-include 'header.php';
+require 'header.php';
+
+
     echo "This is main file <br>";
 
     include 'footer.php'
