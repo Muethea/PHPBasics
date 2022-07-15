@@ -26,7 +26,11 @@ $produts = array(
 $imp = implode(" ", $produts);
 echo "<pre>";
 print_r($imp);
+
+
 ?>
+
+
 </h2>
 </body>
 </html>
