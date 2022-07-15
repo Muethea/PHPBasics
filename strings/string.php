@@ -15,9 +15,17 @@
     // echo str_word_count($name);
 
     
-    $name = "Fernando dos ";
+   // $name = "Fernando ";
 
-    echo strrev($name);
+   // echo strrev($name);
+
+   // $name ="Fernando dos Santos Muethea";
+   // echo strpos($name, 'Santos'); 
+
+   $name = "Hello Word";
+
+   echo str_replace('Word ', 'User',$name);
+
 ?>
     </body>
 </html>
