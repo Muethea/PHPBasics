@@ -1,3 +1,4 @@
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,7 +10,7 @@
 
 <form action="data.php" method="post">
     <input type="password" name="password" id="" >
-    <input type="submit" value="submit">
+    <input style="width: 100px; height:30px; background:red; color:white; border:none;" type="submit" value="submit">
 </form>
     <?php
 
