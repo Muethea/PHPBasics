@@ -11,6 +11,7 @@
 
     <?php
  
+ /*
  $name = "Fernando dos Santos";
 
  $age =24;
@@ -26,6 +27,26 @@ echo 'Your name is ', $name, ' your age is ',$age;
 echo '</br>';
 
 var_dump($name);
+
+
+
+
+*/
+$x = null;
+
+var_dump($x);
+
+/*
+$fruts = array ("
+Apple
+",
+'Lemon',
+"Orange"
+);
+# print_r($fruts);
+echo $fruts[2];
+
+*/
 ?>
 </body>
 </html>
