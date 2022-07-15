@@ -15,18 +15,27 @@
     //     $x++;
     // }
 
-    $a= 1;
-    do {
-       echo "</br>" .$a;
-       $a++;
-    } while ($a <= 10);
+    // $a= 1;
+    // do {
+    //    echo "</br>" .$a;
+    //    $a++;
+    // } while ($a <= 10);
 
 
-    // for ($i=0; $i <4 ; $i++) { 
-    //    echo '</br> a';
+    // for ($i=0; $i <10 ; $i++) { 
+    //    echo '</br> '.$i;
     // }
 
+    $produts = array (
+            'Macbook' =>113000,
+            'Galaxy Tablet' =>800,
+            'Google Pixel' =>12000
+              );
 
+    foreach ($produts as $name => $value) {
+        echo $name."Price is ". $value."<br/>";
+
+    }
 
 ?>
 </body>
